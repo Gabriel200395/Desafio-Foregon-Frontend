@@ -1,5 +1,5 @@
 import "./styles.css";
-import { informListDesKTOP } from "../../../../helpers/InformationListDestop";
+import { informListDesKTOP } from "../../../../helpers/InformationListDesktop";
 import { formatMoney } from "../../../../utils/formatMoney";
 import { treatCharacter } from "../../../../utils/treatCharacter";
 import { TypeTextList } from "../../../../types/propsListInformation";

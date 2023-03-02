@@ -1,0 +1,94 @@
+.header-c nav {
+  background-color: #1565c0;
+  height: 88px;
+  padding-left: 90px; 
+  padding-right: 90px;  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-c nav i {
+  color: #fff;
+  font-size: 23px;
+}
+
+.header-c nav .logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-c nav .logo-container img {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.header-c nav .logo-container span {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.header-c nav .logo-container button {
+  width: 30px;
+  height: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+}
+
+.header-c nav button {
+  width: 275px;
+  height: 56px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(20, 56, 102, 0.16);
+  border: solid 2px #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.94);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .header-c nav #button {
+    display: none;
+  }
+  .header-c nav {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .header-c nav span {
+    display: none;
+  } 
+
+  .header-c nav .logo-container button {
+   padding-left: 24px;
+  }
+}
+ 
+
+@media (min-width: 768px) and (max-width: 1200px){
+  .header-c nav {
+    padding-left:  30px;
+    padding-right: 30px;
+  }
+
+  .header-c nav .logo-container button {
+   padding-left: 0px;
+  } 
+
+  .header-c nav #button {
+    width: 200px;
+    font-size: 12px;
+  }
+}

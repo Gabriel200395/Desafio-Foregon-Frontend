@@ -8,8 +8,8 @@
 
 ## 💻 Como usar
 
-- Clone o projeto: `https://github.com/Gabriel200395/front-end-challenge.git`
-- Entrar na pasta do projeto: `cd front-end-challenge`
+- Clone o projeto: `https://github.com/Gabriel200395/Desafio-Foregon-Frontend.git`
+- Entrar na pasta do projeto: `cd Desafio-Foregon-Frontend`
 - baixe na aplicação: `yarn`
 - Iniciar a aplicação: `yarn start`
 - testa aplicação: `yarn test`
